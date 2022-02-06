@@ -99,28 +99,9 @@ ob_end_flush();
     </div>
   </div>
   <footer class="bg-light py-5">
+
     <div class="container">
-      <div class="row justify-content-center">
-        <div class="col-lg-8 text-center">
-          <h2 class="mt-0">Contact us</h2>
-          <hr class="divider my-4" />
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-lg-4 ml-auto text-center mb-5 mb-lg-0">
-          <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
-          <div><?php echo $_SESSION['setting_contact'] ?></div>
-        </div>
-        <div class="col-lg-4 mr-auto text-center">
-          <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-          <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
-          <a class="d-block" href="mailto:<?php echo $_SESSION['setting_email'] ?>"><?php echo $_SESSION['setting_email'] ?></a>
-        </div>
-      </div>
-    </div>
-    <br>
-    <div class="container">
-      <div class="small text-center text-muted">Copyright © 2020 - <?php echo $_SESSION['setting_name'] ?> | <a href="https://www.sourcecodester.com/" target="_blank">Sourcecodester</a></div>
+      <div class="small text-center text-muted">Doctor's ApointMent System Developed by Shihab</div>
     </div>
   </footer>
 
