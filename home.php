@@ -36,7 +36,7 @@ include 'admin/db_connect.php';
             $cats = $conn->query("SELECT * FROM medical_specialty order by id asc");
             while ($row = $cats->fetch_assoc()) :
             ?>
-                <div class="col-lg-4 col-sm-6">
+                <div class="col-lg-4 col-sm-6" style="border-radius: 50%; overflow:hidden">
                     <a class="portfolio-box" href="index.php?page=doctors&sid=<?php echo $row['id'] ?>">
                         <img class="img-fluid" src="assets/img/<?php echo $row['img_path'] ?>" alt="" />
                         <div class="portfolio-box-caption">

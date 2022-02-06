@@ -20,7 +20,7 @@ while ($row = $special->fetch_assoc()) {
 								<?php
 								$s = $conn->query("SELECT * from medical_specialty where id = " . $_GET['sid'])->fetch_array()['name'];
 								?>
-								<h2><b>Doctor/'s who are in titled as <?php echo $s ?></b></h2>
+								<h2><b><?php echo $s ?> Doctors</b></h2>
 							</div>
 						</div>
 						<hr class="divider">
