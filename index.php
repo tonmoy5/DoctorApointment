@@ -15,11 +15,11 @@ ob_end_flush();
 ?>
 
 <style>
-  header.masthead {
+  /* header.masthead {
     background: url(assets/img/<?php echo $_SESSION['setting_cover_img'] ?>);
     background-repeat: no-repeat;
     background-size: cover;
-  }
+  } */
 </style>
 
 <body id="page-top">
@@ -36,7 +36,7 @@ ob_end_flush();
         <ul class="navbar-nav ml-auto my-2 my-lg-0">
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=home">Home</a></li>
           <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=doctors"></span>Doctors</a></li>
-          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li>
+          <!-- <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.php?page=about">About</a></li> -->
           <?php if (isset($_SESSION['login_id'])) : ?>
             <li class="nav-item"><a class="nav-link js-scroll-trigger" href="admin/ajax.php?action=logout2"><?php echo "Welcome " . $_SESSION['login_name'] ?> <i class="fa fa-power-off"></i></a></li>
           <?php else : ?>
