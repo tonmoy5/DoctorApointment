@@ -1,5 +1,5 @@
-# **DoctorApointment App**
-###Technology Used
+# DoctorApointment ApP
+### Technology Used
 
 * PHP
 * HTML
@@ -8,3 +8,5 @@
 * Ajax
 * Jquery
 
+
+* This web app can be used to run doctor apointment booking system *
